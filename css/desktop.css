@@ -1,0 +1,106 @@
+@media screen and (min-width: 1200px) {
+    .container {
+        width: 1200px;
+    }
+
+    .section-bg {
+        max-width: 1440px;
+        background-image: linear-gradient(to right, rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url('../images/people-office\ 1.jpg');
+    }
+
+    .section-inteface {
+        padding-top: 120px;
+        padding-bottom: 120px;
+    }
+
+    .menu-list-interface {
+        display: flex;
+        gap: 24px;
+    }
+
+    .interface-list::before {
+        content: '';
+        display: block;
+        height: 112px;
+        background-color: #F4F4FD;
+        background-size: 64px 64px;
+        background-repeat: no-repeat;
+        background-position: center;
+        border-radius: 4px;
+    }
+
+    .icon-antenna::before {
+        background-image: url('../images/antenna.svg');
+    }
+
+    .icon-clock::before {
+        background-image: url('../images/clock.svg');
+    }
+
+    .icon-diagram::before {
+        background-image: url('../images/diagram.svg');
+    }
+
+    .icon-astronaut::before {
+        background-image: url('../images/astronaut.svg');
+    }
+
+    .interface-list {
+        max-width: 264px;
+    }
+
+    .interface-title {
+        margin-top: 8px;
+        font-size: 20px;
+
+    }
+
+    .interface-text {
+        width: 264px;
+    }
+
+    .list-team-menu {
+        display: flex;
+        justify-content: center;
+    }
+
+    .section-team {
+        padding-top: 120px;
+        padding-bottom: 120px;
+    }
+
+    .container-company {
+        display: flex;
+    }
+
+    .section-company {
+        padding-top: 120px;
+        padding-bottom: 120px;
+    }
+
+    .company {
+        width: 168px;
+        height: 88px;
+    }
+
+    .container-footer {
+        display: flex;
+    }
+
+    .container-footer-logo {
+        margin-right: 120px;
+    }
+
+    .footer-text {
+        max-width: 264px;
+    }
+
+    .subscribe-footer {
+        display: flex;
+        align-items: center;
+    }
+
+    .input-footer {
+        width: 246px;
+    }
+}
