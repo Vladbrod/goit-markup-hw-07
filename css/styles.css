@@ -578,6 +578,62 @@ body {
     transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+.menu-btn-mobile {
+    width: 30px;
+    height: 21px;
+    position: relative;
+    display: inline-flex;
+    margin: 0;
+    padding: 0;
+    border: none;
+    background-color: transparent;
+}
+
+
+
+.menu-btn-mobile span {
+    position: absolute;
+    background-color: #2E2F42;
+    height: 3px;
+    width: 30px;
+    transition: .3s;
+    left: 0;
+}
+
+.menu-btn-mobile span:nth-child(2) {
+    top: 50%;
+    margin-top: -1.5px;
+}
+
+.menu-btn-mobile span:last-child {
+    bottom: 0;
+}
+
+.menu-btn-mobile.open span:first-child {
+    transform: rotate(45deg);
+    top: 50%;
+}
+
+.menu-btn-mobile.open span:last-child {
+    transform: rotate(-45deg);
+    bottom: 50%;
+}
+
+.menu-btn-mobile.open span:nth-child(2) {
+    width: 0;
+}
+
+/* .menu-btn-mobile .icon-cloze-mob {
+    display: none;
+}
+
+.menu-btn-mobile.is-open .icon-cloze-mob {
+    display: block;
+}
+
+.menu-btn-mobile.is-open .icon-menu-mob {
+    display: none
+} */
 
 .modal {
     width: 408px;
