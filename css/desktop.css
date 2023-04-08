@@ -3,8 +3,12 @@
         width: 1200px;
     }
 
+    .list-contact {
+        gap: 40px;
+    }
+
     .section-bg {
-        max-width: 1440px;
+
         background-image: linear-gradient(to right, rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url('../images/people-office\ 1.jpg');
     }
 
@@ -52,7 +56,6 @@
     .interface-title {
         margin-top: 8px;
         font-size: 20px;
-
     }
 
     .interface-text {
@@ -85,6 +88,7 @@
 
     .container-footer {
         display: flex;
+        flex-wrap: unset;
     }
 
     .container-footer-logo {
@@ -95,12 +99,29 @@
         max-width: 264px;
     }
 
+    .subscribe {
+        margin-top: 0;
+    }
+
     .subscribe-footer {
         display: flex;
-        align-items: center;
+        flex-wrap: nowrap;
     }
 
     .input-footer {
         width: 246px;
+    }
+
+    .section-photo {
+        display: block;
+    }
+
+    .list-menu-work {
+        margin-top: 72px;
+        margin-bottom: 120px;
+    }
+
+    .section-btn {
+        padding-bottom: 0;
     }
 }

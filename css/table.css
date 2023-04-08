@@ -3,13 +3,24 @@
         width: 768px;
     }
 
+    .list-contact {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: end;
+    }
+
+    .menu-item {
+        margin-top: 12px;
+    }
+
     .section-bg {
-        max-width: 768px;
+
         background-image: linear-gradient(to right, rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url('../images/tablet-bg.jpg');
     }
 
     .interface-text {
         width: 351px;
+        text-align: left;
     }
 
     .menu-list-interface {
@@ -19,6 +30,7 @@
 
     .interface-list {
         width: calc((100% - 2 * 12px) / 2);
+
     }
 
     .interface-title {
@@ -75,5 +87,9 @@
 
     .list-footer {
         justify-content: start;
+    }
+
+    .list-btn {
+        justify-content: center;
     }
 }
